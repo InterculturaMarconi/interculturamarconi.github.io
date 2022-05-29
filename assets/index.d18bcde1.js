@@ -14292,7 +14292,7 @@ function g2(e = {}) {
         slotShouldForwardProp: r = fs,
         styleFunctionSx: o = c2,
     } = e;
-    return (i, a = {}) => {
+    return (i, a={}) => {
         const { name: s, slot: l, skipVariantsResolver: u, skipSx: c, overridesResolver: f } = a,
             d = te(a, p5),
             g = u !== void 0 ? u : (l && l !== 'Root') || !1,
@@ -34263,11 +34263,11 @@ const Tj = ({ i: e, testo: t }) =>
     },
     PB = Xx(document.getElementById('root'));
 PB.render(
-    F(ye.StrictMode, {
-        children: [
-            p(E_, { store: YF, children: p(aP, { children: p(Z8, { children: p(_B, {}) }) }) }),
-            ',',
-        ],
+    p(ye.StrictMode, {
+        children: p(E_, {
+            store: YF,
+            children: p(aP, { children: p(Z8, { children: p(_B, {}) }) }),
+        }),
     }),
 );
-//# sourceMappingURL=index.fb0b54f0.js.map
+//# sourceMappingURL=index.d18bcde1.js.map
